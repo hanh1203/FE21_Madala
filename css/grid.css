@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+  }
+  .drop_1{
+    width: 100%;
+    height: 50px;
+    clear: both;
+  }
+  .box_2{
+    border: 1px solid black;
+    width: auto;
+    float: left;
+    margin:5px 10px;
+}
+.next{
+    float: right;
+}
+.price{
+    text-align: center;
+    
+  } 
+  .box_1{
+    border-radius:4px 4px 4px 4px;   
+    border: 1px solid black;
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+  } 

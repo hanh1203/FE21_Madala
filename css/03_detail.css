@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+  }
+  .menu-small{
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .up{
+    padding-top: 50px;
+    
+  }
+.tilte_small{
+  font-size: 2em;
+}
+.price{
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+
+#image_79{
+    width: 46rem;
+    height: 44rem;
+  }
+.box{
+    border: 1px solid;
+     box-sizing: inherit;
+     margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: inherit; 
+    
+    padding: 10px;
+    width: 400px;
+  }
+  .content_btn{
+    font-size: 1em;
+    padding-top: 9px;
+  }
+  .small_detail{
+    display: block;
+  
+  }
+  .box_1{
+    border-radius:4px 4px 4px 4px;   
+    border: 1px solid black;
+    width: 80px;
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .darkgreen{
+    border-radius:4px 4px 4px 4px;   
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 8px 8px 8px 8px;
+    margin: 0 auto;
+    float: right;
+    float: left;
+    font-size: 2rem;
+    background-color:darkgreen;
+    margin-right:5px;
+    
+  }
+  .glyphicon-refresh {
+    background-color: aliceblue;
+    color: black;
+   }
+   .icon{
+    display: block;
+  }
+  .icon_1{
+   padding-top: 15px;
+    float: left;
+    clear: both;
+  }
+.detail_1{
+clear: both;
+}
+.detail_2{
+  clear: both;
+
+}
+.comment{
+  float: left;
+  padding-left: 0;
+  width: 35%;
+
+}
+.comment_1{
+    float: right;
+    width: 50%;
+  }
+ 
+  .image_detail{
+    width: 100%;
+    height: 140px;
+  }
+  .drop_1{
+    width: 100%;
+    height: 50px;
+    clear: both;
+  }
+  .mypham{
+    float: left;
+    height: 50px;
+  }
+   .glyphicon-chevron-right{
+    float:right;
+    padding-right: 0;
+}
+.glyphicon-chevron-down{
+    float:right;
+    padding-right: 0;
+  }
+  .list-dropdown ul li {
+    float: left;
+    clear: both;
+    display: block;
+  }
+  .glyphicon-th-large .glyphicon-th-list{
+    float: left;
+  }
+  .next{
+    float: right;
+   
+  }
+  .price{
+    text-align: center;
+    
+  }  
+  .box_2{
+    border: 1px solid black;
+    width: auto;
+    float: left;
+    margin:5px 10px;
+  }
+  .center{
+    padding-top:45px;
+  }
+  .title_1{
+    font-size:1.1em;
+    float: left;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+  .title_2{
+    
+    float: left;
+    padding-right: 30px;
+  }
+  
+  
+
+  
+  
+  
+
+

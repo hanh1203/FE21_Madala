@@ -1,0 +1,106 @@
+ doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title header
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Great+Vibes|Pinyon|Charm|+Script')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(href='../css/header_1.css', rel='stylesheet', type='text/css')
+    link(href='../css/home.css', rel='stylesheet', type='text/css')
+    link(href='../css/grid.css', rel='stylesheet', type='text/css')
+    link(href='../css/Blog.css', rel='stylesheet', type='text/css')
+    link(href='../css/about-us.css', rel='stylesheet', type='text/css')
+    link(href='../css/03_detail.css', rel='stylesheet', type='text/css')
+    
+    
+  body
+    .container_all
+      .container.header
+        img(src='../image/home/Logo.png', alt='Logo')
+        ul.header_impotant
+          li
+            a(href='#') TRANG CHỦ
+          li
+            a(href='#') GIỚI THIỆU
+          li.header_product
+            a(href='#') SẢN PHẨM
+            // before: mui ten border, after dau tro xuong khi hvoer
+            .menu-product
+              .menu-product__item
+                h6.menu-product__item__title DƯỠNG DA
+                .menu-product__item__list
+                  p Áo khoác
+                  p Bộ áo liền quần
+                  p Dress
+                  p Quần/Váy
+                  p Quần sort
+                  p Quần jean
+                  p Đồ đan
+                  p Áo nỉ
+                  p Áo sơ mi
+              .menu-product__item
+                h6.menu-product__item__title NƯỚC HOA
+                .menu-product__item__list
+                  p Áo khoác
+                  p Bộ áo liền quần
+                  p Dress
+                  p Quần/Váy
+                  p Quần sort
+                  p Quần jean
+                  p Đồ đan
+                  p Áo nỉ
+                  p Áo sơ mi
+              .menu-product__item
+                h6.menu-product__item__title TRANG SỨC
+                .menu-product__item__list
+                  p Áo khoác
+                  p Bộ áo liền quần
+                  p Dress
+                  p Quần/Váy
+                  p Quần sort
+                  p Quần jean
+                  p Đồ đan
+                  p Áo nỉ
+                  p Áo sơ mi
+          li
+            a(href='#') TIN TỨC
+          li
+            a(href='#') BẢN ĐỒ
+          li
+            a(href='#') ĐĂNG KÝ
+        .header_icon
+          button
+            a
+              i.fa.fa-shopping-cart
+            .cart
+              .list
+                .cart_item
+                  img.cart_img(src='../image/home/home_7.jpg')
+                  .cart__item__description
+                    p.cart__item__description__name Áo sơ mi nam
+                    p.cart__item__description__price
+                      | 120.000
+                      sup đ
+                  a x
+                .cart_item
+                  img.cart_img(src='../image/home/home_7.jpg')
+                  .cdescription
+                    p.description_name Áo sơ mi nam
+                    p.description_price
+                      | 120.000
+                      sup đ
+                  a x
+              p.sum
+                | Tổng số
+                span
+                  | 240.000
+                  sup đ
+              a.cart_button(src='#') GIỎ HÀNG
+          button
+            a
+              i.fa.fa-search
+          button
+            a
+              i.fa.fa-bars

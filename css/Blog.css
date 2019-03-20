@@ -1,0 +1,19 @@
+.note{
+    float: left;
+}
+.note_1{
+    float: right;
+}
+.row{
+    padding: 20px;
+}
+p{
+    padding-top: 20px;
+    padding-left: 0;
+}
+.icon_last{
+    padding-top: 20px;
+}
+h4{
+    font-weight: bold;
+}
